@@ -1,0 +1,14 @@
+p{
+	color:blue;
+	font-size:20px;
+	text-align: center;
+}
+
+body{
+	text-align: center;
+	background: #87CEEB;
+}
+.common{
+	font-size: 25px !important;
+	color: #964B00 !important;
+}
