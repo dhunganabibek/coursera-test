@@ -17,6 +17,7 @@ body{
 	display: inline-block;
 	border: solid black 1px;
 	padding: 15px;
+	overflow: auto;
 
 }
 
@@ -29,6 +30,7 @@ body{
 	border: solid black 1px;
 	padding: 10px;	
 	float: left;
+	overflow: auto;
 }
 
 
@@ -41,17 +43,20 @@ body{
 	padding: 10px;
 	border: solid black 1px;
 	float: right;
+	overflow: auto;
 }
 
 #heading{
 	font-size: 2em;
 	text-align: center;
 	color: red;
+	overflow: auto;
 }
 
 h1{
 	text-align: center;
 	font-weight: bold;
+	overflow: auto;
 
 }
 
