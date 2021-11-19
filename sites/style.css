@@ -48,9 +48,10 @@ h1:hover{
 	background-size: cover;
 }
 
-#paragraph *{
-	height: 300px;
-	width: 300px;
+#paragraph>#p1,#p2,#p4
+ {
+	height: 400px;
+	width: 400px;
 	border: solid black 3px;
 	float: left;
 	margin: 5px;
@@ -64,11 +65,16 @@ h1:hover{
 #p2{
 	
 	background-color: green;
+
+	
 }
 
 #p3{
-	
+	height:fill;
+	width: 200px;
+	float: right;
 	background-color: blue;
+	display: inline;
 }
 
 #p4{
