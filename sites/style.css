@@ -1,14 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+
+.body{
+	background-color: gray;
+	align-content: center;
+	text-align: center;
+	
+}
+
 p{
 	color:blue;
 	font-size:20px;
 	text-align: center;
+
 }
 
-body{
-	text-align: center;
-	background: #87CEEB;
-}
 .common{
 	font-size: 25px !important;
-	color: #964B00 !important;
+	color: white  !important;
+	background: #C39B77 !important;
+	opacity: 0.8;
+}
+
+#other{
+	font-size: 25px;
+	color: forestgreen;
+}
+
+h1:hover{
+	color: black;
+}
+
+
+#heading{
+	color: blue;
+	width: fill;
+	height: 500px;
+	margin: 20px;
+	padding: 20px;
+	border: solid red 5px;
+	overflow: auto;
+	background-color: white;
+	background-image:url("nature.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#paragraph *{
+	height: 300px;
+	width: 300px;
+	border: solid black 3px;
+	float: left;
+	margin: 5px;
+}
+
+#p1{
+	background-color: red;
+
+}
+
+#p2{
+	
+	background-color: green;
+}
+
+#p3{
+	
+	background-color: blue;
+}
+
+#p4{
+	
+	background-color: yellow;
+}
+#image{
+	clear: both;
+	display: block;
+
 }
